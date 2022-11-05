@@ -1,0 +1,50 @@
+				 ASSIGNMENT 2
+
+
+Build a python code, assume you get temperature and humidity values (generated with random 
+function to a variable) and write a condition to continuously detect alarm in case of high 
+temperature.
+
+Code:
+import time
+from random import randint
+while randint:
+    humidity=randint(0,100)+1
+    temperature=randint(-100,100)+1
+    if humidity>50:
+        print("\n \n Humidity is High")
+        print(humidity)
+    if temperature>50:
+       print("Temperature is High")
+       print(temperature)
+    time.sleep(1)  
+
+Output:
+Humidity is High
+101
+Temperature is High
+96
+Humidity is High
+75
+Humidity is High
+57
+Temperature is High
+88
+Humidity is High
+70
+Temperature is High
+70
+Humidity is High
+65
+Humidity is High
+73
+Temperature is High
+98
+Humidity is High
+78
+Humidity is High
+79
+Humidity is High
+75
+
+
